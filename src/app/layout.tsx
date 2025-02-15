@@ -17,9 +17,11 @@ export const viewport: Viewport = {
   initialScale: 1,
   maximumScale: 1,
   userScalable: false,
+  themeColor: "#4F46E5",
 };
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://headliner-news.vercel.app/"),
   title: "Headliner - 주요 뉴스 한눈에 보기",
   description:
     "매일 업데이트되는 국내 주요 뉴스와 기술 뉴스를 한눈에 확인하세요.",
@@ -73,7 +75,6 @@ export const metadata: Metadata = {
     apple: "/apple-touch-icon.png",
   },
   manifest: "/manifest.json",
-  themeColor: "#4F46E5",
   category: "news",
 };
 
