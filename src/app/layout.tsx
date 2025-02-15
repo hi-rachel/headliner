@@ -43,7 +43,7 @@ export const metadata: Metadata = {
     siteName: "Headliner",
     images: [
       {
-        url: "/og-image.svg",
+        url: "/og-image.png",
         width: 1200,
         height: 630,
         alt: "Headliner - 주요 뉴스 한눈에 보기",
