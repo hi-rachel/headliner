@@ -1,0 +1,37 @@
+{
+  "name": "Headliner",
+  "short_name": "Headliner",
+  "description": "매일 업데이트되는 국내 주요 뉴스와 기술 뉴스를 한눈에 확인하세요.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#4F46E5",
+  "icons": [
+    {
+      "src": "/web-app-manifest-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/web-app-manifest-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "국내 뉴스",
+      "url": "/?tab=korean",
+      "description": "국내 주요 뉴스 보기"
+    },
+    {
+      "name": "기술 뉴스",
+      "url": "/?tab=tech",
+      "description": "기술 뉴스 보기"
+    }
+  ],
+  "categories": ["news", "tech"],
+  "orientation": "portrait"
+}
