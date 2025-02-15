@@ -17,7 +17,7 @@ async function fetchKoreanNews() {
         q: "(korea OR 한국) AND (경제 OR 정치 OR 사회)",
         language: "ko",
         sortBy: "publishedAt",
-        pageSize: "10",
+        pageSize: "20",
         apiKey: NEWS_API_KEY ?? "",
       }),
     { next: { revalidate: 3600 } }
@@ -45,8 +45,8 @@ async function fetchHackerNews() {
   });
   const storyIds = (await topStoriesResponse.json()) as number[];
 
-  // 상위 10개 스토리만 가져오기
-  const promises = storyIds.slice(0, 10).map(async (id) => {
+  // 상위 20개 스토리만 가져오기
+  const promises = storyIds.slice(0, 20).map(async (id) => {
     const response = await fetch(`${HACKER_NEWS_API}/item/${id}.json`, {
       next: { revalidate: 3600 },
     });
