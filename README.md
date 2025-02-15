@@ -1,36 +1,17 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+## 🗞️ Headliner
 
-## Getting Started
+![Image](https://github.com/user-attachments/assets/1424d6c0-8081-4b65-a95f-bc58dc62312e)
 
-First, run the development server:
+### URL: https://headliner-news.vercel.app/
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+매일 업데이트되는 국내 주요 뉴스와 기술 뉴스를 한눈에 확인하기 위해 만든 앱입니다.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+PWA 앱으로 설치 가능합니다.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Next.js + Vercel + [News API](https://newsapi.org/) + [Hacker News API](https://news.ycombinator.com/item?id=32540883)
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+---
 
-## Learn More
+### 개발 과정 포스팅
 
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+https://velog.io/@hi-rachel/AI를-활용해-1시간만에-간단-뉴스-서비스-만들기-Caude-GPT
